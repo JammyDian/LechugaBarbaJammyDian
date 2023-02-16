@@ -1,29 +1,39 @@
 header{
+    /* Desde el header, que es la cabeza de toda la pagina donde puse un padding (que establece el area de relleno desde los 4 lados del elemento)*/
     padding: 20px;
+    /*Un padding-top que solo aumenta la cantidad de pixeles en el espacio de arriba del elemento*/
     padding-top: 20px;
+    /*un padding-bottom que establece la anchura de la zona inferior*/
     padding-bottom: 20px;
+    /* El font-family para cambiar la fuente del encabezado con un tamaño de 16 px*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
+    /*color desde el rgb que usa 3 colores base que son rojo, verde y azul y mediante los numeros iniciales de cada color, va cambiando la tonalidad.*/
     color: rgb(255, 255, 255);
     background-color: rgb(36, 36, 36);
 }
 
+/*Al cuerpo del HTML solo le cambie el color del fondo*/
 body{
     background-color: rgb(248, 247, 247);
 }
 
+/*El header con tamaño 3 o los textos que tuvieran esa etiqueta, cambiaron el color de la fuente,
+un tamaño largo y un bordeado estilo groove*/
 h3{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:xx-large;
     border-style: groove;
 }
 
+/*Las etiquetas <p> igual sufrieron una modificacion en su fuente, tamaño y un alineado justificado y centrado*/
 p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
     text-align: center, justify;
 }
-
+/*Pero el parrafo <p> con la clase fecha,
+fue alineado a la derecha con un tamaño de 20px con la letra teniendo una leve opacidad (o sea, transparencia) de 0,5.**/
 p.fecha{
     text-align: right;
     font-size: 20px;
